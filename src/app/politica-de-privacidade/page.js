@@ -165,7 +165,7 @@ const TermosDeUso = () => {
             <br />
             Compartilhamos seus dados pessoais com Livre-se do Hepes Labial, para que as outras
             empresas do grupo possam oferecer produtos e serviços a você. Como
-            As únicas informações que compartilhamos com o Livre-se do Hepes Labial são seu
+            As únicas informações que compartilhamos com o Livre-se da Hepes Labial são seu
             nome, faixa etária, e-mail e país. Se não quiser que elas sejam
             compartilhadas, entre em contato com nosso atendimento.
           </p>

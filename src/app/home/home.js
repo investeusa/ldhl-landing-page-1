@@ -15,8 +15,8 @@ import bannerMeio3 from "@/images/meio3.png";
 import bannerMeio4 from "@/images/meio4.png";
 import garantia from "@/images/garantia-1.png";
 import logoWhite from "@/images/logo.png";
-import Pixel from '../../components/FacebookPixel'
 import headline from "@/images/headline1.png";
+import GoogleTagManager from "../../components/GoogleTagManager.js";
 
 export default function Home() {
   const [isHidden, setIsHidden] = useState(true);
@@ -88,26 +88,21 @@ export default function Home() {
 
   return (
     <div className="bg-primary items-start">
-      <div>
-        {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
-      </div>
-      {/* <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-JDG5KY8HMP" />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-10996660370" />
+      <div className="container">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-KJJX78W84Y" />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'G-JDG5KY8HMP');
-          gtag('config', 'AW-10996660370');
+          gtag('config', 'G-KJJX78W84Y');
         `}
         </Script>
       </div>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-JDG5KY8HMP"></Script> */}
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KJJX78W84Y"></Script>
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <title>Livre-se do Herpes Labial</title>
+      <title>Livre-se da Herpes Labial</title>
       <div className="bg-primary py-1 items-start"></div>
       <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
         <section className="bg-primary pt-5 pb-10 mask1 bg-[url('/images/bg-1-plain.svg')] bg-no-repeat bg-bottom bg-contain">

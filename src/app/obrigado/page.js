@@ -43,13 +43,13 @@ export default function Home() {
   return (
     <div className="bg-primary items-start">
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <title>Obrigado Protocolo Escovacao a Seco 10 Dias!</title>
+      <title>Obrigado Livre-se da Herpes Labial</title>
       <div className="bg-primary py-1 items-start"></div>
       <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
         <section>
           <div className="p-5">
             <h2 className="text-2xl text-center font-bold text-primary mb-5">
-              A equipe Viva Bem Com Lipedema agradece a confiança, leia atentamente a mensagem disponível no portal (primeiro módulo Protocolo Escovação a Seco 10 dias).
+              A equipe Livre-se da Herpes Labial agradece a confiança, leia atentamente a mensagem disponível no porta.
               Você receberá os dados de acesso em seu email.
             </h2>
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
               PIRATARIA É <span className="font-bold">CRIME</span>
             </h3>
             <p className="text-xs mb-2">
-              A venda dos Programas e Guias Viva Bem Com Lipedema só pode ser realizada através
+              A venda dos Programas e Livre-se da Herpes Labial só pode ser realizada através
               deste site. Qualquer outro site onde você encontre este
               programa é uma FALSIFICAÇÃO e vai contra as leis. Evite
               falsificações e recuse conteúdos ilegais ou pirateados. Não

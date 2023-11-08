@@ -8,7 +8,7 @@ const TermosDeUso = () => {
       <div className="bg-white border p-10 mb-10 rounded-2xl shadow-lg">
         <div className="area-white">
           <p className="mb-4">
-            A equipe do Livre-se do Hepes Labial criou esse Termo de uso a fim de demonstrar o
+            A equipe do Livre-se da Hepes Labial criou esse Termo de uso a fim de demonstrar o
             nosso firme comprometimento sobre como você pode utilizar todas as
             informações deste Site.
           </p>

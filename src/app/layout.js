@@ -2,8 +2,8 @@ import "./globals.css";
 import { poppins } from "../fonts";
 
 export const metadata = {
-  title: "Programa Lipedema 21 Dias",
-  description: "Programa Lipedema 21 Dias",
+  title: "Livre-se da Herpes Labial",
+  description: "Livre-se da Herpes Labial",
 };
 
 export default function RootLayout({ children }) {

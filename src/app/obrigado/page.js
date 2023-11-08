@@ -3,11 +3,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Script from 'next/script'
-
 import Button from "@/components/button";
-import headline from "@/images/headline-upsell.png";
-import logoWhite from "@/images/logo-white-150x150.png";
-import Pixel from '../../components/FacebookPixel'
 
 export default function Home() {
   const [utmParams, setUtmParams] = useState('');
@@ -46,25 +42,6 @@ export default function Home() {
 
   return (
     <div className="bg-primary items-start">
-
-      {/* <div>
-        <Pixel name='FACEBOOK_PIXEL_1' />
-      </div> */}
-      <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-JDG5KY8HMP" />
-        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=AW-10996660370" /> */}
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-JDG5KY8HMP');
-          gtag('config', 'AW-10996660370');
-        `}
-        </Script>
-      </div>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-JDG5KY8HMP"></Script>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <title>Obrigado Protocolo Escovacao a Seco 10 Dias!</title>
       <div className="bg-primary py-1 items-start"></div>
@@ -99,11 +76,11 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <Image
+            {/* <Image
               className="max-w-[5rem] my-8 md:mt-0"
               src={logoWhite}
               alt="Logo autenticidade"
-            />
+            /> */}
             <p className="text-xs text-center mb-8">
               Viva Bem Com Lipedema – Copyright 2023 Todos os direitos
               reservados.

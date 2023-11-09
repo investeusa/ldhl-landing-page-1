@@ -169,12 +169,12 @@ export default function Home() {
                     </h2>
                     <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base md:text-1xl">
                       {[
-                        "Tudo o que você precisa saber sobre o Herpes Labial;",
-                        "Conheça os sintomas, possíveis causas e o tratamento mais eficaz contra o herpes labial;",
-                        "Entenda o por que o vírus do herpes é resistente à maioria dos remédios comuns;",
                         "Alívio rápido da dor: Nossas técnicas ajudam a reduzir significativamente a dor associada ao herpes labial, proporcionando alívio imediato.",
                         "Cicatrização acelerada: Aprenda como acelerar o processo de cicatrização e reduzir o tempo de duração do surto.",
                         "Prevenção de futuros surtos: Descubra as melhores estratégias para evitar recorrências e manter o vírus sob controle.",
+                        "Tudo o que você precisa saber sobre o Herpes Labial;",
+                        "Conheça os sintomas, possíveis causas e o tratamento mais eficaz contra o herpes labial;",
+                        "Entenda o por que o vírus do herpes é resistente à maioria dos remédios comuns;",
                         "Livrar-se do herpes labial não é apenas sobre saúde, mas também sobre recuperar sua confiança e sentir-se bem consigo mesmo novamente.",
                       ].map((item, i) => (
                         <li key={i} className="mb-4 flex items-start">

@@ -102,7 +102,7 @@ export default function Home() {
               " text-white text-center uppercase font-black text-4xl md:text-6xl tracking-tight"
             }
           >
-            Livre-se do <br />
+            Livre-se da <br />
             <span className="text-5xl md:text-7xl text-yellow-400">
               Herpes Labial
             </span>

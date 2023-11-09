@@ -88,19 +88,9 @@ export default function Home() {
 
   return (
     <div className="bg-primary items-start">
-      <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-KJJX78W84Y" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-KJJX78W84Y');
-        `}
-        </Script>
+      <div>
+        <GoogleTagManager />
       </div>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KJJX78W84Y"></Script>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <title>Livre-se da Herpes Labial</title>
       <div className="bg-primary py-1 items-start"></div>

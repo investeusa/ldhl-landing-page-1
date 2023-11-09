@@ -212,11 +212,11 @@ export default function Home() {
                     </h2>
                     <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base md:text-1xl">
                       {[
-                        "Programa alimentar completo de 21 dias desenvolvido especialmente para mulheres com Lipedema;",
-                        "Mais de 30 receitas anti-inflamatórias para o dia a dia (café-da-manhã, almoço, lanches e jantar);",
-                        "Desinflame seu corpo e reduza as dores e inchaço do Lipedema antes mesmo de perder peso;",
-                        "Elimine o peso nas pernas através do nosso programa alimentar alimentação exclusivo para o Lipedema;",
-                        "Receitas simples de fácil preparo.",
+                        "Melhoria da Saúde Digestiva;",
+                        "Aumento da Absorção de Nutrientes;",
+                        "Fortalecimento do Sistema Imunológico;",
+                        "Redução da Inflamação;",
+                        "Prevenção de Complicações Graves.",
                       ].map((item, i) => (
                         <li key={i} className="mb-4 flex items-start">
                           <Image
@@ -238,12 +238,14 @@ export default function Home() {
                   <Image alt="profil" src={ebook3} className="mx-auto object-cover rounded" />
                   <div className="w-full md:w-2/3">
                     <h2 className="text-xl text-left font-bold text-primary mb-3">
-                      Nutrição no Herpes Labial
+                      Nutrição e Imunidade na Herpes Labial
                     </h2>
                     <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base">
                       {[
                         "Aumente sua imunidade com esse guia de nutrição criado especialmete para o Herpes Labial;",
                         "Conheça os alimentos que potencializam a imunidade do nosso organismo;",
+                        "Conheça os alimentos devem ser evitados e que ajudam o vírus a se manifestar;",
+                        "Receitas de vitaminas especiais para a imunidade e Herpes Labial;",
                       ].map((item, i) => (
                         <li key={i} className="mb-4 flex items-start">
                           <Image
@@ -290,7 +292,7 @@ export default function Home() {
                 </p>
                 <p className="uppercase mb-10 text-center">
                   <span className="font-bold">
-                    DESPARASITAÇÃO NATURAL + NUTRIÇÃO NO HERPES LABIAL
+                    DESPARASITAÇÃO NATURAL + Nutrição e Imunidade
                   </span>
                   <br />
                   TOTALMENTE gratuito!
@@ -340,7 +342,7 @@ export default function Home() {
                 VALOR TOTAL DE R$ 247
               </p>
               <p className="text-3xl uppercase text-center font-bold text-green-600">
-                POR R$ 147 à vista <br />(apenas hoje)
+                POR R$ 97 à vista <br />(apenas hoje)
               </p>
               <h3 className="text-4xl text-center font-bold text-primary mt-2">
                 Tenha acesso ao
@@ -439,7 +441,7 @@ export default function Home() {
                   PIRATARIA É <span className="font-bold">CRIME</span>
                 </h3>
                 <p className="text-xs mb-2">
-                  A venda dos Livre-se do Herpes Labial só pode ser realizada através
+                  A venda do Programa Livre-se do Herpes Labial só pode ser realizada através
                   deste site. Qualquer outro site onde você encontre este
                   programa é uma FALSIFICAÇÃO e vai contra as leis. Evite
                   falsificações e recuse conteúdos ilegais ou pirateados. Não

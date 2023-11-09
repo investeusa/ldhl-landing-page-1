@@ -13,7 +13,7 @@ import bannerMeio1 from "@/images/meio1.png";
 import bannerMeio2 from "@/images/meio2.png";
 import bannerMeio3 from "@/images/meio3.png";
 import bannerMeio4 from "@/images/meio4.png";
-import garantia from "@/images/garantia-1.png";
+import garantia from "@/images/garantia-2.png";
 import logoWhite from "@/images/logo.png";
 import headline from "@/images/headline1.png";
 import GoogleTagManager from "../../components/GoogleTagManager.js";
@@ -333,7 +333,7 @@ export default function Home() {
                 <p className="tracking-wide leading-7">
                   Garantimos a sua total satisfação com nosso produto. E se por
                   algum motivo você não ficar satisfeita com a sua compra,
-                  poderá solicitar o reembolso dentro do prazo legal de 7 dias.
+                  poderá solicitar o reembolso dentro do prazo de 15 dias.
                 </p>
               </div>
             </section>
@@ -395,7 +395,7 @@ export default function Home() {
                     question:
                       "O que acontece se eu me arrepender da compra do programa?",
                     answer:
-                      "Garantimos a sua total satisfação com nosso produto. E se por algum motivo você não ficar satisfeita com a compra, poderá solicitar o reembolso dentro do prazo de 7 dias.",
+                      "Garantimos a sua total satisfação com nosso produto. E se por algum motivo você não ficar satisfeita com a compra, poderá solicitar o reembolso dentro do prazo de 15 dias.",
                   },
                 ].map((item, i) => (
                   <details key={i} className="p-4 group">

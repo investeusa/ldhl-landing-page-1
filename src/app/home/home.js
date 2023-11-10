@@ -89,6 +89,7 @@ export default function Home() {
   return (
     <>
       <GoogleTagManager />
+      <meta name="facebook-domain-verification" content="samnzoppvqo73oto8wjs0aafhu5oiu" />
       <div className="bg-primary items-start">
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <title>Livre-se da Herpes Labial</title>

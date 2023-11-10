@@ -2,8 +2,8 @@ import React from 'react'
 
 export default () =>
   <React.Fragment>
-    <div>
-      <div>
+    <>
+      <>
         <script dangerouslySetInnerHTML={{
           __html: `!(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -11,10 +11,10 @@ export default () =>
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-TLDBN68Z');` }}
         />
-      </div>
+      </>
       <noscript dangerouslySetInnerHTML={{
         __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLDBN68Z"
       height="0" width="0" style="display:none;visibility:hidden" />` }}
       />
-    </div>
+    </>
   </React.Fragment>

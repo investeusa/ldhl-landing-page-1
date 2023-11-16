@@ -15,13 +15,13 @@ import bannerMeio3 from "@/images/meio3.png";
 import bannerMeio4 from "@/images/meio4.png";
 import garantia from "@/images/garantia-2.png";
 import logoWhite from "@/images/logo.png";
-import headline from "@/images/headline1.png";
+import headline from "@/images/headline0.png";
 import GoogleTagManager from "../../components/GoogleTagManager.js";
 
 export default function Home() {
   const [isHidden, setIsHidden] = useState(true);
   const [utmParams, setUtmParams] = useState('');
-  const [userDelay, setUserDelay] = useState(1000 * 5); // 1240
+  const [userDelay, setUserDelay] = useState(1000 * 450); // 1240
   const [initialLoadTime, setInitialLoadTime] = useState(0);
   const [totalTime, setTotalTime] = useState(0);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
@@ -72,7 +72,7 @@ export default function Home() {
       const currentTime = Date.now();
       const elapsedTime = currentTime - initialLoadTime;
       setTotalTime(elapsedTime);
-      localStorage.setItem('totalTime', elapsedTime);
+      // localStorage.setItem('totalTime', elapsedTime);
 
       if (elapsedTime > userDelay) {
         setIsButtonVisible(true);
@@ -85,6 +85,7 @@ export default function Home() {
     };
   }, [initialLoadTime, userDelay]);
 
+  console.log(isButtonVisible)
 
   return (
     <>
@@ -96,7 +97,7 @@ export default function Home() {
         <div className="bg-primary py-1 items-start"></div>
         <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
           <section className="bg-primary pt-5 pb-10 mask1 bg-[url('/images/bg-1-plain.svg')] bg-no-repeat bg-bottom bg-contain">
-            <h2
+            {isButtonVisible && (<h2
               className={
                 roboto.className +
                 " text-white text-center uppercase font-black text-4xl md:text-6xl tracking-tight"
@@ -106,7 +107,7 @@ export default function Home() {
               <span className="text-5xl md:text-7xl text-yellow-400">
                 Herpes Labial
               </span>
-            </h2>
+            </h2>)}
             <div className="text-white text-center md:text-xl mb-5">
               <Image alt="profil" src={headline} className="mx-auto object-cover rounded" />
             </div>
@@ -125,34 +126,36 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center py-7">
-              <Button
-                type="primary"
-                href={`${URL_TICTO}${utmParams}`}
-                className="uppercase md:text-lg font-bold tracking-wider px-8 py-3 text-center"
-              >
-                clique aqui! Quero tratar o Herpes Labial!
-              </Button>
-            </div>
-          </section>
-          <section className=" items-start justify-center items-center content-center">
-            <div className="text-justify mx-3">
-              <div className="flex justify-center my-2"></div>
-              <p className="mb-3 text-justify">
-                Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial?
-                Apresentamos a solução que vai finalmente te ajudar a diminuir drasticamente as crises dessa condição.
-              </p>
-              <p className="mb-3 text-justify">
-                Você já se sentiu envergonhado(a) ao sair de casa com aquelas dolorosas feridas no lábio? O herpes labial pode ser extremamente incômodo e afetar sua autoestima.
-                Além disso, as crises recorrentes são extremamente dolorosas e podem te impedir de aproveitar momentos importantes da sua vida. Mas a boa notícia é que você não precisa mais conviver com essa situação!
-              </p>
-              <p className="mb-3 text-justify">
-                Apresentamos o "Livre-se da Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
-                Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
-              </p>
+              {isButtonVisible && (
+                <Button
+                  type="primary"
+                  href={`${URL_TICTO}${utmParams}`}
+                  className="uppercase md:text-lg font-bold tracking-wider px-8 py-3 text-center"
+                >
+                  clique aqui! Quero tratar o Herpes Labial!
+                </Button>
+              )}
             </div>
           </section>
           {isButtonVisible && (
             <>
+              <section className=" items-start justify-center items-center content-center">
+                <div className="text-justify mx-3">
+                  <div className="flex justify-center my-2"></div>
+                  <p className="mb-3 text-justify">
+                    Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial?
+                    Apresentamos a solução que vai finalmente te ajudar a diminuir drasticamente as crises dessa condição.
+                  </p>
+                  <p className="mb-3 text-justify">
+                    Você já se sentiu envergonhado(a) ao sair de casa com aquelas dolorosas feridas no lábio? O herpes labial pode ser extremamente incômodo e afetar sua autoestima.
+                    Além disso, as crises recorrentes são extremamente dolorosas e podem te impedir de aproveitar momentos importantes da sua vida. Mas a boa notícia é que você não precisa mais conviver com essa situação!
+                  </p>
+                  <p className="mb-3 text-justify">
+                    Apresentamos o "Livre-se da Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
+                    Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
+                  </p>
+                </div>
+              </section>
               <section>
                 <Image src={bannerMeio1} alt="Herpes Labial" priority={true} />
               </section>

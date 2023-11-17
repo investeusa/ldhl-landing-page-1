@@ -21,7 +21,7 @@ import GoogleTagManager from "../../components/GoogleTagManager.js";
 export default function Home() {
   const [isHidden, setIsHidden] = useState(true);
   const [utmParams, setUtmParams] = useState('');
-  const [userDelay, setUserDelay] = useState(1000 * 450); // 1240
+  const [userDelay, setUserDelay] = useState(1000 * 5); // 450
   const [initialLoadTime, setInitialLoadTime] = useState(0);
   const [totalTime, setTotalTime] = useState(0);
   const [isButtonVisible, setIsButtonVisible] = useState(false);

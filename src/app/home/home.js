@@ -93,7 +93,7 @@ export default function Home() {
       <meta name="facebook-domain-verification" content="samnzoppvqo73oto8wjs0aafhu5oiu" />
       <div className="bg-primary items-start">
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <title>Livre-se da Herpes Labial</title>
+        <title>Livre-se do Herpes Labial</title>
         <div className="bg-primary py-1 items-start"></div>
         <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
           <section className="bg-primary pt-5 pb-10 mask1 bg-[url('/images/bg-1-plain.svg')] bg-no-repeat bg-bottom bg-contain">
@@ -103,7 +103,7 @@ export default function Home() {
                 " text-white text-center uppercase font-black text-4xl md:text-6xl tracking-tight"
               }
             >
-              Livre-se da <br />
+              Livre-se do <br />
               <span className="text-5xl md:text-7xl text-yellow-400">
                 Herpes Labial
               </span>
@@ -151,7 +151,7 @@ export default function Home() {
                     Além disso, as crises recorrentes são extremamente dolorosas e podem te impedir de aproveitar momentos importantes da sua vida. Mas a boa notícia é que você não precisa mais conviver com essa situação!
                   </p>
                   <p className="mb-3 text-justify">
-                    Apresentamos o "Livre-se da Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
+                    Apresentamos o "Livre-se do Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
                     Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
                   </p>
                 </div>
@@ -168,7 +168,7 @@ export default function Home() {
                     <Image alt="profil" src={ebook1} className="mx-auto object-cover rounded" />
                     <div className="w-full md:w-2/3">
                       <h2 className="text-xl text-left font-bold text-primary mb-3">
-                        Guia Livre-se da Herper Labial
+                        Guia Livre-se do Herper Labial
                       </h2>
                       <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base md:text-1xl">
                         {[
@@ -285,7 +285,7 @@ export default function Home() {
                   <p className="uppercase mb-10 text-center">
                     GARANTINDO HOJE SEU ACESSO AO{" "}
                     <span className="font-bold">
-                      Livre-se da Hepes Labial (
+                      Livre-se do Herpes Labial (
                       <span className="line-through">VALOR R$ 147</span>)
                     </span>
                     ,
@@ -350,7 +350,7 @@ export default function Home() {
                 <h3 className="text-4xl text-center font-bold text-primary mt-2">
                   Tenha acesso ao
                   <br /> Programa Completo
-                  <br /> Livre-se da Hepes Labial
+                  <br /> Livre-se do Hepes Labial
                 </h3>
                 <Image
                   className="mb-16"
@@ -444,7 +444,7 @@ export default function Home() {
                     PIRATARIA É <span className="font-bold">CRIME</span>
                   </h3>
                   <p className="text-xs mb-2">
-                    A venda do Programa Livre-se da Hepes Labial só pode ser realizada através
+                    A venda do Programa Livre-se do Hepes Labial só pode ser realizada através
                     deste site. Qualquer outro site onde você encontre este
                     programa é uma FALSIFICAÇÃO e vai contra as leis. Evite
                     falsificações e recuse conteúdos ilegais ou pirateados. Não
@@ -466,7 +466,7 @@ export default function Home() {
                     alt="Logo autenticidade"
                   />
                   <p className="text-xs text-center mb-8">
-                    Livre-se da Hepes Labial – Copyright 2023 Todos os direitos
+                    Livre-se do Hepes Labial – Copyright 2023 Todos os direitos
                     reservados.
                   </p>
                   <p className="text-xs text-center">

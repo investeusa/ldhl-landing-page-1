@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Script from 'next/script'
-import Button from "@/components/button";
+import Button from "@/app/components/button";
 
 export default function Home() {
   const [utmParams, setUtmParams] = useState('');

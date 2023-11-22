@@ -19,15 +19,7 @@ import headline from "@/images/headline4.png";
 import GoogleTagManager from "../components/GoogleTagManager.js";
 import Checkout from "../components/checkout.js";
 
-export default function Home({
-  name,
-  languages,
-  city,
-  region,
-  country,
-  currencyCode,
-  currencySymbol,
-}) {
+export default function Home() {
   const [isHidden, setIsHidden] = useState(true);
   const [utmParams, setUtmParams] = useState('');
   const [userDelay, setUserDelay] = useState(1000 * 5); // 450
@@ -94,14 +86,6 @@ export default function Home({
       clearInterval(interval);
     };
   }, [initialLoadTime, userDelay]);
-
-  console.log(name,
-    languages,
-    city,
-    region,
-    country,
-    currencyCode,
-    currencySymbol,)
 
   return (
     <>

@@ -48,7 +48,9 @@ export default function Checkout({ open, setOpen, url }) {
         Cookies.set('email', email);
         Cookies.set('whatsapp', cleanNumber(whatsapp));
         const url_checkout = `${url}&name=${firstName + " " + lastName}&email=${email}&phonenumber=${whatsapp}`;
-        window.location.href = url_checkout;
+        setTimeout(() => {
+            window.location.href = url_checkout;
+        }, 500);
     };
 
     return (
@@ -148,7 +150,7 @@ export default function Checkout({ open, setOpen, url }) {
                                                         <Button
                                                             type="primary"
                                                             onClick={handleSubmit}
-                                                            href=""
+                                                            href="#"
                                                             className="py-2 px-4 bg-purple-600 hover:bg-purple-700 focus:ring-purple-500 focus:ring-offset-purple-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
                                                         >
                                                             Finalizar Cadastro

@@ -27,7 +27,7 @@ export default function Home() {
   const [totalTime, setTotalTime] = useState(0);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
   const [testButton, setTestButton] = useState(false);
-  const URL_TICTO = 'https://payment.ticto.app/O96E5F092?event=InitiateCheckout'
+  const URL_TICTO = 'https://payment.ticto.app/O9AFFDE87?event=InitiateCheckout'
 
   useEffect(() => {
     // Pega os parâmetros da URL

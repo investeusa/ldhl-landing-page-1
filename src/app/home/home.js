@@ -378,7 +378,7 @@ export default function Home() {
                   VALOR TOTAL DE R$ 247
                 </p>
                 <p className="text-3xl uppercase text-center font-bold text-green-600">
-                  POR R$ 97 à vista <br />(apenas hoje)
+                  POR R$ 67 à vista <br />(BLACK FRIDAY)
                 </p>
                 <h3 className="text-4xl text-center font-bold text-primary mt-2">
                   Tenha acesso ao

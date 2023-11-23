@@ -50,7 +50,7 @@ export default function Checkout({ open, setOpen, url }) {
         const url_checkout = `${url}&name=${firstName + " " + lastName}&email=${email}&phonenumber=${whatsapp}`;
         setTimeout(() => {
             window.location.href = url_checkout;
-        }, 500);
+        }, 1000);
     };
 
     return (

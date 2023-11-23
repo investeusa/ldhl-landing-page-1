@@ -43,13 +43,13 @@ export default function Home() {
   return (
     <div className="bg-primary items-start">
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <title>Obrigado Livre-se da Herpes Labial</title>
+      <title>Suporte Livre-se da Herpes Labial</title>
       <div className="bg-primary py-1 items-start"></div>
       <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
         <section>
           <div className="p-5">
             <h2 className="text-2xl text-center font-bold text-primary mb-5">
-              A equipe Livre-se da Herpes Labial agradece a confiança, verifique sua caixa de e-mail e SPAM para informações sobre download e acesso ao nosso portal.
+              Qualquer dúvida ou reclamação entre em contato através do e-mail: suporte@livresedoherpeslabial.com.br
             </h2>
           </div>
         </section>

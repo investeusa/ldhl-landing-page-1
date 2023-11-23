@@ -515,10 +515,11 @@ export default function Home() {
                     alt="Logo autenticidade"
                   />
                   <p className="text-xs text-center mb-8">
-                    Livre-se do Hepes Labial – Copyright 2023 Todos os direitos
+                    Livre-se da Hepes Labial – Copyright 2023 Todos os direitos
                     reservados.
                   </p>
                   <p className="text-xs text-center">
+                    <Link href="/suporte">Suporte</Link> |{" "}
                     <Link href="/termos-de-uso">Termos de Uso</Link> |{" "}
                     <Link href="/politica-de-privacidade">
                       Políticas de Privacidade

@@ -9,7 +9,7 @@ export default function Home() {
   const [utmParams, setUtmParams] = useState('');
   const [userDelay, setUserDelay] = useState(1000 * 170);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
-  const URL_TICTO = 'https://payment.ticto.app/O581CB6FB'
+  const URL_TICTO = 'https://payment.ticto.app/OFCDE5802'
 
   useEffect(() => {
     // Pega os parâmetros da URL

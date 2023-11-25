@@ -93,7 +93,7 @@ export default function Home() {
       <meta name="facebook-domain-verification" content="samnzoppvqo73oto8wjs0aafhu5oiu" />
       <div className="bg-primary items-start">
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <title>Livre-se do Herpes Labial</title>
+        <title>Desligue o Herpes Labial</title>
         <div className="bg-primary py-1 items-start"></div>
         <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
           <section className="bg-primary pt-5 pb-10 mask1 bg-[url('/images/bg-1-plain.svg')] bg-no-repeat bg-bottom bg-contain">
@@ -121,16 +121,16 @@ export default function Home() {
             )}
             <div className='justify-center items-center content-center relative z-0'>
               <div className="divide-y divide-gray-300/50 md:max-w-md md:ml-56 flex z-0">
-                <div id="vid_65527b437a21620009f2be3e" >
-                  <div id="thumb_65527b437a21620009f2be3e" role="status" className='flex justify-center items-center p-5 z-0'>
+                <div id="vid_65625ac57ce41e0009df19d4" >
+                  <div id="thumb_65625ac57ce41e0009df19d4" role="status" className='flex justify-center items-center p-5 z-0'>
                     <svg aria-hidden="true" className="inline w-20 h-20 mr-2 text-gray-200 animate-spin dark:text-gray-100 fill-rose-700 z-0" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor" />
                       <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill" />
                     </svg>
                   </div>
-                  <div id="thumb_65527b437a21620009f2be3e"></div>
+                  <div id="backdrop_65625ac57ce41e0009df19d4"></div>
                 </div>
-                <Script type="text/javascript" id="scr_65527b437a21620009f2be3e">var s=document.createElement(`script`);s.src=`https://scripts.converteai.net/dc18b5f5-d9cd-4d50-b62e-13e5bdae39b4/players/65527b437a21620009f2be3e/player.js`,s.async=!0,document.head.appendChild(s);</Script>
+                <Script type="text/javascript" id="scr_65625ac57ce41e0009df19d4">var s=document.createElement(`script`);s.src=`https://scripts.converteai.net/dc18b5f5-d9cd-4d50-b62e-13e5bdae39b4/players/65625ac57ce41e0009df19d4/player.js`,s.async=!0,document.head.appendChild(s);</Script>
               </div>
             </div>
             <div className="flex justify-center py-7">
@@ -168,7 +168,7 @@ export default function Home() {
                     Além disso, as crises recorrentes são extremamente dolorosas e podem te impedir de aproveitar momentos importantes da sua vida. Mas a boa notícia é que você não precisa mais conviver com essa situação!
                   </p>
                   <p className="mb-3 text-justify">
-                    Apresentamos o "Livre-se do Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
+                    Apresentamos o "Desligue o Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
                     Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
                   </p>
                 </div>
@@ -185,7 +185,7 @@ export default function Home() {
                     <Image alt="profil" src={ebook1} className="mx-auto object-cover rounded" />
                     <div className="w-full md:w-2/3">
                       <h2 className="text-xl text-left font-bold text-primary mb-3">
-                        Guia Livre-se do Herper Labial
+                        Guia Desligue o Herpes Labial
                       </h2>
                       <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base md:text-1xl">
                         {[
@@ -310,7 +310,7 @@ export default function Home() {
                   <p className="uppercase mb-10 text-center">
                     GARANTINDO HOJE SEU ACESSO AO{" "}
                     <span className="font-bold">
-                      Livre-se do Herpes Labial (
+                      Desligue o Herpes Labial (
                       <span className="line-through">VALOR R$ 147</span>)
                     </span>
                     ,
@@ -383,7 +383,7 @@ export default function Home() {
                 <h3 className="text-4xl text-center font-bold text-primary mt-2">
                   Tenha acesso ao
                   <br /> Programa Completo
-                  <br /> Livre-se do Hepes Labial
+                  <br /> Desligue o Herpes Labial
                 </h3>
                 <Image
                   className="mb-16"
@@ -493,7 +493,7 @@ export default function Home() {
                     PIRATARIA É <span className="font-bold">CRIME</span>
                   </h3>
                   <p className="text-xs mb-2">
-                    A venda do Programa Livre-se da Hepes Labial só pode ser realizada através
+                    A venda do Programa Desligue o Herpes Labial só pode ser realizada através
                     deste site. Qualquer outro site onde você encontre este
                     programa é uma FALSIFICAÇÃO e vai contra as leis. Evite
                     falsificações e recuse conteúdos ilegais ou pirateados. Não
@@ -515,7 +515,7 @@ export default function Home() {
                     alt="Logo autenticidade"
                   />
                   <p className="text-xs text-center mb-8">
-                    Livre-se da Hepes Labial – Copyright 2023 Todos os direitos
+                    Desligue o Herpes Labial – Copyright 2023 Todos os direitos
                     reservados.
                   </p>
                   <p className="text-xs text-center">

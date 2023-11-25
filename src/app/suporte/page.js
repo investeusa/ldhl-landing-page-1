@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <div className="bg-primary items-start">
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <title>Suporte Livre-se da Herpes Labial</title>
+      <title>Suporte Desligue o Herpes Labial</title>
       <div className="bg-primary py-1 items-start"></div>
       <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
         <section>
@@ -59,7 +59,7 @@ export default function Home() {
               PIRATARIA É <span className="font-bold">CRIME</span>
             </h3>
             <p className="text-xs mb-2">
-              A venda dos Programas e Livre-se da Herpes Labial só pode ser realizada através
+              A venda dos Programas e Desligue o Herpes Labial só pode ser realizada através
               deste site. Qualquer outro site onde você encontre este
               programa é uma FALSIFICAÇÃO e vai contra as leis. Evite
               falsificações e recuse conteúdos ilegais ou pirateados. Não
@@ -81,7 +81,7 @@ export default function Home() {
               alt="Logo autenticidade"
             /> */}
             <p className="text-xs text-center mb-8">
-              Livre-se da Herpes Labial – Copyright 2023 Todos os direitos
+              Desligue o Herpes Labial – Copyright 2023 Todos os direitos
               reservados.
             </p>
             <p className="text-xs text-center">

@@ -43,6 +43,16 @@ export default function Checkout({ open, setOpen, url }) {
             alert("Por favor, preencha todos os campos obrigatórios.");
             return;
         }
+        if (!email.includes("@")) {
+            alert("Por favor, o campo e-mail com um e-mail válido!");
+            return;
+        }
+        let phone = whatsapp.replace(/[^\d]/g, "")
+        console.log(phone.length)
+        if (phone.length < 11) {
+            alert("Por favor, o campo whatsapp com um número válido!");
+            return;
+        }
         Cookies.set('fn', firstName);
         Cookies.set('ln', lastName);
         Cookies.set('email', email);

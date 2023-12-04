@@ -6,10 +6,10 @@ import Cookies from 'js-cookie';
 
 export default function Checkout({ open, setOpen, url }) {
 
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [email, setEmail] = useState('');
-    const [whatsapp, setWhatsapp] = useState('');
+    const [firstName, setFirstName] = useState(Cookies.get('fn'));
+    const [lastName, setLastName] = useState(Cookies.get('ln'));
+    const [email, setEmail] = useState(Cookies.get('email'));
+    const [whatsapp, setWhatsapp] = useState(Cookies.get('whatsapp'));
     const emailInputRef = useRef(null);
 
     const cleanNumber = (input) => {
@@ -37,6 +37,143 @@ export default function Checkout({ open, setOpen, url }) {
         }
     }, [open]);
 
+    const generateLinkerParam = (a) => {
+        // Function to properly grab ID's from Cookies
+        var getCookiebyName = function (name) {
+            var pair = document.cookie.match(new RegExp(name + '=([^;]+)'));
+            return !!pair ? pair[1].match(/GA1\.[0-9]\.(.+)/)[1] : undefined;
+        };
+
+        // These are the 3 values used by the new linker
+        var cookies = {
+            _ga: getCookiebyName("_ga"),
+            // Google Analytics GA ID
+            _gac: undefined,
+            // Google Remarketing
+            _gid: getCookiebyName("_gid")// Google ID
+        };
+
+        // Calculate current browser_fingerprint based on UA, time, timezone and language
+        // 
+        var browser_fingerprint = (function (a, b) {
+            var F = function (a) {
+                // Didnt check what this does, the algo just needs F to be defined. commenting out
+                Ne.set(a)
+            };
+            a = [window.navigator.userAgent, (new Date).getTimezoneOffset(), window.navigator.userLanguage || window.navigator.language, Math.floor((new Date).getTime() / 60 / 1E3) - (void 0 === b ? 0 : b), a].join("*");
+            if (!(b = F)) {
+                b = Array(256);
+                for (var c = 0; 256 > c; c++) {
+                    for (var d = c, e = 0; 8 > e; e++)
+                        d = d & 1 ? d >>> 1 ^ 3988292384 : d >>> 1;
+                    b[c] = d
+                }
+            }
+
+            F = b;
+            b = 4294967295;
+            for (c = 0; c < a.length; c++)
+                b = b >>> 8 ^ F[(b ^ a.charCodeAt(c)) & 255];
+            return ((b ^ -1) >>> 0).toString(36);
+        }
+        )();
+
+        // Function to hash the cookie value
+        // The following functions takes a string and returns a hash value.
+        var hash_cookie_value = function (val) {
+            var A, C, D = function (a) {
+                A = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_.";
+                C = {
+                    "0": 52,
+                    "1": 53,
+                    "2": 54,
+                    "3": 55,
+                    "4": 56,
+                    "5": 57,
+                    "6": 58,
+                    "7": 59,
+                    "8": 60,
+                    "9": 61,
+                    "A": 0,
+                    "B": 1,
+                    "C": 2,
+                    "D": 3,
+                    "E": 4,
+                    "F": 5,
+                    "G": 6,
+                    "H": 7,
+                    "I": 8,
+                    "J": 9,
+                    "K": 10,
+                    "L": 11,
+                    "M": 12,
+                    "N": 13,
+                    "O": 14,
+                    "P": 15,
+                    "Q": 16,
+                    "R": 17,
+                    "S": 18,
+                    "T": 19,
+                    "U": 20,
+                    "V": 21,
+                    "W": 22,
+                    "X": 23,
+                    "Y": 24,
+                    "Z": 25,
+                    "a": 26,
+                    "b": 27,
+                    "c": 28,
+                    "d": 29,
+                    "e": 30,
+                    "f": 31,
+                    "g": 32,
+                    "h": 33,
+                    "i": 34,
+                    "j": 35,
+                    "k": 36,
+                    "l": 37,
+                    "m": 38,
+                    "n": 39,
+                    "o": 40,
+                    "p": 41,
+                    "q": 42,
+                    "r": 43,
+                    "s": 44,
+                    "t": 45,
+                    "u": 46,
+                    "v": 47,
+                    "w": 48,
+                    "x": 49,
+                    "y": 50,
+                    "z": 51,
+                    "-": 62,
+                    "_": 63,
+                    ".": 64
+                };
+                for (var b = [], c = 0; c < a.length; c += 3) {
+                    var d = c + 1 < a.length
+                        , e = c + 2 < a.length
+                        , g = a.charCodeAt(c)
+                        , f = d ? a.charCodeAt(c + 1) : 0
+                        , h = e ? a.charCodeAt(c + 2) : 0
+                        , p = g >> 2;
+                    g = (g & 3) << 4 | f >> 4;
+                    f = (f & 15) << 2 | h >> 6;
+                    h &= 63;
+                    e || (h = 64,
+                        d || (f = 64));
+                    b.push(A[p], A[g], A[f], A[h])
+                }
+                return b.join("")
+            };
+            return D(String(val));
+        };
+
+        // Now we have all the data Let's build the linker String! =)
+        // First value is a fixed "1" value, the current GA code does the same. May change in a future
+        return ["1", browser_fingerprint, "_ga", hash_cookie_value(cookies._ga), "_gid", hash_cookie_value(cookies._gid)].join('*');
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!firstName || !lastName || !email || !whatsapp) {
@@ -48,7 +185,6 @@ export default function Checkout({ open, setOpen, url }) {
             return;
         }
         let phone = whatsapp.replace(/[^\d]/g, "")
-        console.log(phone.length)
         if (phone.length < 11) {
             alert("Por favor, o campo whatsapp com um número válido!");
             return;
@@ -57,7 +193,12 @@ export default function Checkout({ open, setOpen, url }) {
         Cookies.set('ln', lastName);
         Cookies.set('email', email);
         Cookies.set('whatsapp', cleanNumber(whatsapp));
-        const url_checkout = `${url}&name=${firstName + " " + lastName}&email=${email}&phonenumber=${whatsapp}`;
+        // let a = Cookies.get("_ga").substring(6);
+        // let b = Cookies.get("_ga_KJJX78W84Y").substring(6);
+        // console.log(window.dataLayer)
+        // let gl = window.dataLayer.glBridge.generate({ _ga: a, _ga_XXXXXXXXX: b });
+        let parm = generateLinkerParam();
+        const url_checkout = `${url}&name=${firstName + " " + lastName}&email=${email}&phonenumber=${whatsapp}&_gl=${parm}`;
         setTimeout(() => {
             window.location.href = url_checkout;
         }, 1000);
@@ -99,7 +240,7 @@ export default function Checkout({ open, setOpen, url }) {
                                         </div>
                                         <div className="mt-6">
                                             <div className="w-full space-y-6">
-                                                <form >
+                                                <form name="checkout" >
                                                     <div className="flex flex-col mb-2">
                                                         <div className=" relative ">
                                                             <input

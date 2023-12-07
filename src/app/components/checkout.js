@@ -16,7 +16,7 @@ export default function Checkout({ open, setOpen, url }) {
         return input.replace(/\D/g, '');
     };
 
-    const handlePopupClose = (e) => {
+    const handlePopupClose = () => {
         // console.log("opa!")
         // setOpen(false);
         if (!firstName || !lastName || !email || !whatsapp) {
@@ -178,6 +178,7 @@ export default function Checkout({ open, setOpen, url }) {
     };
 
     const handleSubmit = (e) => {
+        e.preventDefault();
         if (!firstName || !lastName || !email || !whatsapp) {
             alert("Por favor, preencha todos os campos obrigatórios.");
             return;

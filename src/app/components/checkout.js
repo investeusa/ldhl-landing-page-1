@@ -16,15 +16,18 @@ export default function Checkout({ open, setOpen, url }) {
         return input.replace(/\D/g, '');
     };
 
-    const handlePopupClose = () => {
+    const handlePopupClose = (e) => {
+        // console.log("opa!")
+        // setOpen(false);
         if (!firstName || !lastName || !email || !whatsapp) {
             return;
         }
+        // handleSubmit(e)
         Cookies.set('fn', firstName);
         Cookies.set('ln', lastName);
         Cookies.set('email', email);
         Cookies.set('whatsapp', cleanNumber(whatsapp));
-        setOpen(false);
+
     };
 
     const handleEmailClick = (e) => {
@@ -175,7 +178,6 @@ export default function Checkout({ open, setOpen, url }) {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault();
         if (!firstName || !lastName || !email || !whatsapp) {
             alert("Por favor, preencha todos os campos obrigatórios.");
             return;

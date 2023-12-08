@@ -15,7 +15,7 @@ import bannerMeio3 from "@/images/meio3.png";
 import bannerMeio4 from "@/images/meio4.png";
 import garantia from "@/images/garantia-2.png";
 import logoWhite from "@/images/logo.png";
-import headline from "@/images/headline6.png";
+import headline from "@/images/headline7.png";
 import GoogleTagManager from "../components/GoogleTagManager.js";
 import Checkout from "../components/checkout.js";
 

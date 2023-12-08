@@ -22,7 +22,7 @@ import Checkout from "../components/checkout.js";
 export default function Home() {
   const [isHidden, setIsHidden] = useState(true);
   const [utmParams, setUtmParams] = useState('');
-  const [userDelay, setUserDelay] = useState(1000 * 680); // 490
+  const [userDelay, setUserDelay] = useState(1000 * 670); // 11:11
   const [initialLoadTime, setInitialLoadTime] = useState(0);
   const [totalTime, setTotalTime] = useState(0);
   const [isButtonVisible, setIsButtonVisible] = useState(false);

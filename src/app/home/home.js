@@ -15,7 +15,7 @@ import bannerMeio3 from "@/images/meio3.png";
 import bannerMeio4 from "@/images/meio4.png";
 import garantia from "@/images/garantia-2.png";
 import logoWhite from "@/images/logo.png";
-import headline from "@/images/headline7.png";
+import headline from "@/images/headline2.png";
 import GoogleTagManager from "../components/GoogleTagManager.js";
 import Checkout from "../components/checkout.js";
 
@@ -97,17 +97,17 @@ export default function Home() {
         <div className="bg-primary py-1 items-start"></div>
         <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
           <section className="bg-primary pt-5 pb-10 mask1 bg-[url('/images/bg-1-plain.svg')] bg-no-repeat bg-bottom bg-contain">
-            {/* {isButtonVisible && (<h2
+            <h2
               className={
                 roboto.className +
-                " text-white text-center uppercase font-black text-4xl md:text-6xl tracking-tight"
+                " text-white text-center uppercase font-black text-3xl md:text-6xl tracking-tight"
               }
             >
-              Livre-se do <br />
-              <span className="text-5xl md:text-7xl text-yellow-400">
+              Desligue o <br />
+              <span className="text-5xl md:text-3xl text-yellow-400">
                 Herpes Labial
               </span>
-            </h2>)} */}
+            </h2>
             <div className="text-white text-center md:text-xl mb-5">
               <Image alt="profil" src={headline} className="mx-auto object-cover rounded" />
             </div>
@@ -146,25 +146,25 @@ export default function Home() {
               )}
             </div>
           </section>
+          <section className=" items-start justify-center items-center content-center">
+            <div className="text-justify mx-3">
+              <div className="flex justify-center my-2"></div>
+              <p className="mb-3 text-justify">
+                Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial?
+                Apresentamos a solução que vai finalmente te ajudar a diminuir drasticamente as crises dessa condição.
+              </p>
+              <p className="mb-3 text-justify">
+                Você já se sentiu envergonhado(a) ao sair de casa com aquelas dolorosas feridas no lábio? O herpes labial pode ser extremamente incômodo e afetar sua autoestima.
+                Além disso, as crises recorrentes são extremamente dolorosas e podem te impedir de aproveitar momentos importantes da sua vida. Mas a boa notícia é que você não precisa mais conviver com essa situação!
+              </p>
+              {isButtonVisible && (<p className="mb-3 text-justify">
+                Apresentamos o "Desligue o Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
+                Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
+              </p>)}
+            </div>
+          </section>
           {isButtonVisible && (
             <>
-              <section className=" items-start justify-center items-center content-center">
-                <div className="text-justify mx-3">
-                  <div className="flex justify-center my-2"></div>
-                  <p className="mb-3 text-justify">
-                    Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial?
-                    Apresentamos a solução que vai finalmente te ajudar a diminuir drasticamente as crises dessa condição.
-                  </p>
-                  <p className="mb-3 text-justify">
-                    Você já se sentiu envergonhado(a) ao sair de casa com aquelas dolorosas feridas no lábio? O herpes labial pode ser extremamente incômodo e afetar sua autoestima.
-                    Além disso, as crises recorrentes são extremamente dolorosas e podem te impedir de aproveitar momentos importantes da sua vida. Mas a boa notícia é que você não precisa mais conviver com essa situação!
-                  </p>
-                  <p className="mb-3 text-justify">
-                    Apresentamos o "Desligue o Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
-                    Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
-                  </p>
-                </div>
-              </section>
               <section>
                 <Image src={bannerMeio1} alt="Herpes Labial" priority={true} />
               </section>

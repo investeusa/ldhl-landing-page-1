@@ -25,7 +25,7 @@ export default function Home() {
   const [userDelay, setUserDelay] = useState(1000 * 670); // 11:11
   const [initialLoadTime, setInitialLoadTime] = useState(0);
   const [totalTime, setTotalTime] = useState(0);
-  const [isButtonVisible, setIsButtonVisible] = useState(false);
+  const [isButtonVisible, setIsButtonVisible] = useState(true);
   const [testButton, setTestButton] = useState(false);
   const URL_TICTO = 'https://payment.ticto.app/O7852DCB1?event=InitiateCheckout'
 

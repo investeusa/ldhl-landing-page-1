@@ -100,11 +100,11 @@ export default function Home() {
             <h2
               className={
                 roboto.className +
-                " text-white text-center uppercase font-black text-3xl md:text-6xl tracking-tight"
+                " text-white text-center uppercase font-black text-5xl tracking-tight"
               }
             >
               Desligue o <br />
-              <span className="text-5xl md:text-3xl text-yellow-400">
+              <span className="text-4xl text-yellow-400">
                 Herpes Labial
               </span>
             </h2>

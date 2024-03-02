@@ -6,16 +6,16 @@ import Script from 'next/script'
 import { redirect } from 'next/navigation'
 import Button from "@/app/components/button.js";
 import { roboto } from "@/fonts";
-import ebook1 from "@/images/ebook1.png";
+import ebook1 from "@/images/ebook1-2.png";
 import ebook2 from "@/images/ebook2.png";
 import ebook3 from "@/images/ebook3.png";
-import bannerMeio1 from "@/images/meio1.png";
-import bannerMeio2 from "@/images/meio2.png";
-import bannerMeio3 from "@/images/meio3.png";
-import bannerMeio4 from "@/images/meio4.png";
+import bannerMeio1 from "@/images/hpl-meio-site.png";
+import bannerMeio2 from "@/images/hpl-meio-site2.png";
+import bannerMeio3 from "@/images/hpl-bonus.png";
+import bannerMeio4 from "@/images/hpl-botton-site.png";
 import garantia from "@/images/garantia-2.png";
 import logoWhite from "@/images/logo.png";
-import headline from "@/images/headline2.png";
+import headline from "@/images/headline8.png";
 import GoogleTagManager from "../components/GoogleTagManager.js";
 import Checkout from "../components/checkout.js";
 
@@ -103,9 +103,9 @@ export default function Home() {
                 " text-white text-center uppercase font-black text-5xl tracking-tight"
               }
             >
-              Desligue o <br />
+              Desligue o Herpes<br />
               <span className="text-4xl text-yellow-400">
-                Herpes Labial
+                Labial e Genital
               </span>
             </h2>
             <div className="text-white text-center md:text-xl mb-5">
@@ -285,9 +285,9 @@ export default function Home() {
               </section>
               <section>
                 <div className="">
-                  <h2 className="text-2xl text-center font-bold text-primary mb-5">
+                  {/* <h2 className="text-2xl text-center font-bold text-primary mb-5">
                     Aqui está tudo o que você receberá...
-                  </h2>
+                  </h2> */}
                   <div className="max-w-2xl mx-auto flex justify-center">
                     <Image src={bannerMeio2} alt="Books showcase lipedema" />
                   </div>

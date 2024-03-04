@@ -93,7 +93,7 @@ export default function Home() {
       <meta name="facebook-domain-verification" content="samnzoppvqo73oto8wjs0aafhu5oiu" />
       <div className="bg-primary items-start">
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <title>Desligue o Herpes Labial</title>
+        <title>Desligue o Herpes Labial e Genital</title>
         <div className="bg-primary py-1 items-start"></div>
         <div className="mx-auto max-w-4xl bg-white rounded-xl overflow-hidden items-start justify-center items-center content-center">
           <section className="bg-primary pt-5 pb-10 mask1 bg-[url('/images/bg-1-plain.svg')] bg-no-repeat bg-bottom bg-contain">
@@ -141,7 +141,7 @@ export default function Home() {
                   className="uppercase md:text-lg font-bold tracking-wider px-8 py-3 text-center"
                   onClick={() => setTestButton(true)}
                 >
-                  clique aqui! Quero tratar o Herpes Labial!
+                  clique aqui! Quero tratar o Herpes Labial e Genital!
                 </Button>
               )}
             </div>
@@ -150,20 +150,20 @@ export default function Home() {
             <div className="text-justify mx-3">
               <div className="flex justify-center my-2"></div>
               <p className="mb-3 text-justify">
-                Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial ou Genital? Você já se sentiu envergonhado(a) ao sair de casa, ou ao se relacionar com as pessoas com aquelas dolorosas feridas no lábio ou virilha?
+                Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial e Genital ou Genital? Você já se sentiu envergonhado(a) ao sair de casa, ou ao se relacionar com as pessoas com aquelas dolorosas feridas no lábio ou virilha?
               </p>
               <p className="mb-3 text-justify">
                 Não se preocupe mais!
               </p>
               <p className="mb-3 text-justify">
-                Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do herpes labial e genital que reduzem a multiplicação do vírus e impedem novos surtos.
+                Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do Herpes Labial e Genital que reduzem a multiplicação do vírus e impedem novos surtos.
 
               </p>
               <p className="mb-3 text-justify">
-                Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do herpes labial e genital que reduzem a multiplicação do vírus e impedem novos surtos.
+                Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do Herpes Labial e Genital que reduzem a multiplicação do vírus e impedem novos surtos.
               </p>
               <p className="mb-3 text-justify">
-                Mas a boa notícia é que você não precisa mais conviver com essa situação! Os estudos científicos  confirmaram a eficácia de duas substâncias naturais altamente poderosas contra o vírus do herpes simplex tipo 1 e 2, que causam o herpes labial e genital.
+                Mas a boa notícia é que você não precisa mais conviver com essa situação! Os estudos científicos  confirmaram a eficácia de duas substâncias naturais altamente poderosas contra o vírus do herpes simplex tipo 1 e 2, que causam o Herpes Labial e Genital.
               </p>
               <p className="mb-3 text-justify">
                 E através do guia "Desligue o Herpes Labial e Genital", você vai descobrir quais são essas substâncias e como deve aplicá-las para reduzir a carga viral do herpes e eliminar os sintomas em menos de 24 horas.
@@ -178,7 +178,7 @@ export default function Home() {
                 O conteúdo é 100% digital com acesso imediato! Você receberá o acesso aos e-books pelo e-mail, assim que concluir a compra. Além disso, poderá contar com nosso suporte para dúvidas e informações.
               </p>
               {isButtonVisible && (<p className="mb-3 text-justify">
-                Apresentamos o "Desligue o Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
+                Apresentamos o "Desligue o Herpes Labial e Genital", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do Herpes Labial e Genital e diminuir os sintomas em menos de 24 horas.
                 Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
               </p>)}
             </div>
@@ -186,7 +186,7 @@ export default function Home() {
           {isButtonVisible && (
             <>
               <section>
-                <Image src={bannerMeio1} alt="Herpes Labial" priority={true} />
+                <Image src={bannerMeio1} alt="Herpes Labial e Genital" priority={true} />
               </section>
               <section className="p-5 md:p-6">
                 <h2 className="text-xl text-center font-bold text-primary mb-5 md:mb-10">
@@ -201,11 +201,11 @@ export default function Home() {
                       </h2>
                       <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base md:text-1xl">
                         {[
-                          "Alívio rápido da dor: Nossa técnica reduz a dor e formigamento causados pelas feridas do herpes labial e genital, proporcionando alívio imediato.",
+                          "Alívio rápido da dor: Nossa técnica reduz a dor e formigamento causados pelas feridas do Herpes Labial e Genital, proporcionando alívio imediato.",
                           "Cicatrização acelerada: Aprenda como aplicar as substâncias para acelerar o processo de cicatrização e reduzir o tempo de duração do surto.",
                           "Prevenção de futuros surtos: Descubra as melhores estratégias para evitar crises de herpes e manter o vírus inativo.",
                           "Tenha acesso a tudo o que você precisa saber sobre o Herpes Labial e Genital;",
-                          "Conheça os sintomas, possíveis causas, e o tratamento mais eficaz contra o herpes labial e genital;",
+                          "Conheça os sintomas, possíveis causas, e o tratamento mais eficaz contra o Herpes Labial e Genital;",
                           "Entenda o por que o vírus do herpes é resistente à maioria dos remédios comuns;",
                           "Livrar-se do herpes não é apenas sobre saúde, mas também sobre recuperar sua confiança e sentir-se bem consigo mesmo novamente.",
                         ].map((item, i) => (
@@ -278,7 +278,7 @@ export default function Home() {
                     <Image alt="profil" src={ebook3} className="mx-auto object-cover rounded" />
                     <div className="w-full md:w-2/3">
                       <h2 className="text-xl text-left font-bold text-primary mb-3">
-                        Nutrição e Imunidade na Herpes Labial
+                        Nutrição e Imunidade na Herpes Labial e Genital
                       </h2>
                       <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base">
                         {[
@@ -322,7 +322,7 @@ export default function Home() {
                   <p className="uppercase mb-10 text-center">
                     GARANTINDO HOJE SEU ACESSO AO{" "}
                     <span className="font-bold">
-                      Desligue o Herpes Labial (
+                      Desligue o Herpes Labial e Genital (
                       <span className="line-through">VALOR R$ 147</span>)
                     </span>
                     ,
@@ -395,7 +395,7 @@ export default function Home() {
                 <h3 className="text-4xl text-center font-bold text-primary mt-2">
                   Tenha acesso ao
                   <br /> Programa Completo
-                  <br /> Desligue o Herpes Labial
+                  <br /> Desligue o Herpes Labial e Genital
                 </h3>
                 <Image
                   className="mb-16"
@@ -409,7 +409,7 @@ export default function Home() {
                     className="uppercase md:text-lg font-bold tracking-wider px-8 py-3 text-center"
                     onClick={() => setTestButton(true)}
                   >
-                    clique aqui! Quero tratar o Herpes Labial!
+                    clique aqui! Quero tratar o Herpes Labial e Genital!
                   </Button>
                   {/* <Button
                     type="primary"
@@ -435,7 +435,7 @@ export default function Home() {
                     {
                       question: "O programa completo é seguro?",
                       answer:
-                        "Sim. Nossos materiais foram desenvolvidos com base em estudos e pesquisas de renomados especialistas internacionais em Herpes Labial, combinando os conhecimentos da teoria através evidências científicas comprovadas.",
+                        "Sim. Nossos materiais foram desenvolvidos com base em estudos e pesquisas de renomados especialistas internacionais em Herpes Labial e Genital, combinando os conhecimentos da teoria através evidências científicas comprovadas.",
                     },
                     {
                       question: "Quais serão as formas de pagamento?",
@@ -487,14 +487,14 @@ export default function Home() {
                     className="uppercase md:text-lg font-bold tracking-wider px-8 py-3 text-center"
                     onClick={() => setTestButton(true)}
                   >
-                    Quero tratar o Herpes Labial hoje
+                    Quero tratar o Herpes Labial e Genital hoje
                   </Button>
                   {/* <Button
                     type="primary"
                     href={`${URL_TICTO}${utmParams}`}
                     className="uppercase md:text-lg font-bold tracking-wider px-8 py-3 text-center"
                   >
-                    Quero tratar o Herpes Labial hoje
+                    Quero tratar o Herpes Labial e Genital hoje
                   </Button> */}
                 </div>
               </section>
@@ -504,7 +504,7 @@ export default function Home() {
                     PIRATARIA É <span className="font-bold">CRIME</span>
                   </h3>
                   <p className="text-xs mb-2">
-                    A venda do Programa Desligue o Herpes Labial só pode ser realizada através
+                    A venda do Programa Desligue o Herpes Labial e Genital só pode ser realizada através
                     deste site. Qualquer outro site onde você encontre este
                     programa é uma FALSIFICAÇÃO e vai contra as leis. Evite
                     falsificações e recuse conteúdos ilegais ou pirateados. Não
@@ -526,7 +526,7 @@ export default function Home() {
                     alt="Logo autenticidade"
                   />
                   <p className="text-xs text-center mb-8">
-                    Desligue o Herpes Labial – Copyright 2023 Todos os direitos
+                    Desligue o Herpes Labial e Genital – Copyright 2023 Todos os direitos
                     reservados.
                   </p>
                   <p className="text-xs text-center">

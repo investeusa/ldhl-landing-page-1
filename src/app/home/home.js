@@ -150,12 +150,32 @@ export default function Home() {
             <div className="text-justify mx-3">
               <div className="flex justify-center my-2"></div>
               <p className="mb-3 text-justify">
-                Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial?
-                Apresentamos a solução que vai finalmente te ajudar a diminuir drasticamente as crises dessa condição.
+                Você já perdeu a conta de quantas vezes teve que lidar com o desconforto e constrangimento causado pelo Herpes Labial ou Genital? Você já se sentiu envergonhado(a) ao sair de casa, ou ao se relacionar com as pessoas com aquelas dolorosas feridas no lábio ou virilha?
               </p>
               <p className="mb-3 text-justify">
-                Você já se sentiu envergonhado(a) ao sair de casa com aquelas dolorosas feridas no lábio? O herpes labial pode ser extremamente incômodo e afetar sua autoestima.
-                Além disso, as crises recorrentes são extremamente dolorosas e podem te impedir de aproveitar momentos importantes da sua vida. Mas a boa notícia é que você não precisa mais conviver com essa situação!
+                Não se preocupe mais!
+              </p>
+              <p className="mb-3 text-justify">
+                Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do herpes labial e genital que reduzem a multiplicação do vírus e impedem novos surtos.
+
+              </p>
+              <p className="mb-3 text-justify">
+                Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do herpes labial e genital que reduzem a multiplicação do vírus e impedem novos surtos.
+              </p>
+              <p className="mb-3 text-justify">
+                Mas a boa notícia é que você não precisa mais conviver com essa situação! Os estudos científicos  confirmaram a eficácia de duas substâncias naturais altamente poderosas contra o vírus do herpes simplex tipo 1 e 2, que causam o herpes labial e genital.
+              </p>
+              <p className="mb-3 text-justify">
+                E através do guia "Desligue o Herpes Labial e Genital", você vai descobrir quais são essas substâncias e como deve aplicá-las para reduzir a carga viral do herpes e eliminar os sintomas em menos de 24 horas.
+              </p>
+              <p className="mb-3 text-justify">
+                Com nossa técnica natural e simples, você vai finalmente ter controle sobre essa condição e poder desfrutar da vida sem preocupações.
+              </p>
+              <p className="mb-3 text-justify">
+                Ao adquirir o guia por esta página você ganhará bônus exclusivos e uma garantia de 15 dias para reembolso.
+              </p>
+              <p className="mb-3 text-justify">
+                O conteúdo é 100% digital com acesso imediato! Você receberá o acesso aos e-books pelo e-mail, assim que concluir a compra. Além disso, poderá contar com nosso suporte para dúvidas e informações.
               </p>
               {isButtonVisible && (<p className="mb-3 text-justify">
                 Apresentamos o "Desligue o Herpes Labial", um programa completo que vai te guiar passo a passo para reduzir em até 91% a carga viral do herpes labial e diminuir os sintomas em menos de 24 horas.
@@ -170,24 +190,24 @@ export default function Home() {
               </section>
               <section className="p-5 md:p-6">
                 <h2 className="text-xl text-center font-bold text-primary mb-5 md:mb-10">
-                  Confira alguns dos benefícios que você terá com nosso <br /> programa exclusivo para o Lipedema!
+                  Confira alguns dos benefícios que você terá com nosso <br /> programa exclusivo!
                 </h2>
                 <div className="bg-gray-100 w-full mx-auto pt-8 rounded-lg mt-3">
                   <div className="flex flex-col items-center justify-center md:items-start md:flex-row">
                     <Image alt="profil" src={ebook1} className="mx-auto object-cover rounded" />
                     <div className="w-full md:w-2/3">
                       <h2 className="text-xl text-left font-bold text-primary mb-3">
-                        Guia Desligue o Herpes Labial
+                        Guia Desligue o Herpes Labial e Genital
                       </h2>
                       <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base md:text-1xl">
                         {[
-                          "Alívio rápido da dor: Nossas técnicas ajudam a reduzir significativamente a dor associada ao herpes labial, proporcionando alívio imediato.",
-                          "Cicatrização acelerada: Aprenda como acelerar o processo de cicatrização e reduzir o tempo de duração do surto.",
-                          "Prevenção de futuros surtos: Descubra as melhores estratégias para evitar recorrências e manter o vírus sob controle.",
-                          "Tudo o que você precisa saber sobre o Herpes Labial;",
-                          "Conheça os sintomas, possíveis causas e o tratamento mais eficaz contra o herpes labial;",
+                          "Alívio rápido da dor: Nossa técnica reduz a dor e formigamento causados pelas feridas do herpes labial e genital, proporcionando alívio imediato.",
+                          "Cicatrização acelerada: Aprenda como aplicar as substâncias para acelerar o processo de cicatrização e reduzir o tempo de duração do surto.",
+                          "Prevenção de futuros surtos: Descubra as melhores estratégias para evitar crises de herpes e manter o vírus inativo.",
+                          "Tenha acesso a tudo o que você precisa saber sobre o Herpes Labial e Genital;",
+                          "Conheça os sintomas, possíveis causas, e o tratamento mais eficaz contra o herpes labial e genital;",
                           "Entenda o por que o vírus do herpes é resistente à maioria dos remédios comuns;",
-                          "Livrar-se do herpes labial não é apenas sobre saúde, mas também sobre recuperar sua confiança e sentir-se bem consigo mesmo novamente.",
+                          "Livrar-se do herpes não é apenas sobre saúde, mas também sobre recuperar sua confiança e sentir-se bem consigo mesmo novamente.",
                         ].map((item, i) => (
                           <li key={i} className="mb-4 flex items-start">
                             <Image
@@ -262,10 +282,10 @@ export default function Home() {
                       </h2>
                       <ul className="text-gray-600 dark:text-gray-800 w-full m-auto text-left text-base">
                         {[
-                          "Aumente sua imunidade com esse guia de nutrição criado especialmete para o Herpes Labial;",
+                          "Aumente sua imunidade com esse guia de nutrição criado especialmete para o Herpes;",
                           "Conheça os alimentos que potencializam a imunidade do nosso organismo;",
                           "Conheça os alimentos devem ser evitados e que ajudam o vírus a se manifestar;",
-                          "Receitas de vitaminas especiais para a imunidade e Herpes Labial;",
+                          "Receitas de vitaminas especiais para a imunidade e Herpes Labial e Genital;",
                         ].map((item, i) => (
                           <li key={i} className="mb-4 flex items-start">
                             <Image
@@ -351,7 +371,7 @@ export default function Home() {
                   <Image
                     className="max-w-[13rem]"
                     src={garantia}
-                    alt="Garantia lipedema"
+                    alt="Garantia"
                   />
                 </div>
                 <div>
@@ -380,7 +400,6 @@ export default function Home() {
                 <Image
                   className="mb-16"
                   src={bannerMeio4}
-                  alt="Programa Completo Viva Bem Com Lipedema"
                   priority={true}
                 />
                 <div className="flex justify-center">

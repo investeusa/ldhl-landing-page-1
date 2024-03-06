@@ -27,7 +27,7 @@ export default function Home() {
   const [totalTime, setTotalTime] = useState(0);
   const [isButtonVisible, setIsButtonVisible] = useState(true);
   const [testButton, setTestButton] = useState(false);
-  const URL_TICTO = 'https://payment.ticto.app/O7852DCB1?event=InitiateCheckout'
+  const URL_TICTO = 'https://payment.ticto.app/OB0D2F4AC?event=InitiateCheckout'
 
   useEffect(() => {
     // Pega os parâmetros da URL
@@ -159,6 +159,9 @@ export default function Home() {
                 Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do Herpes Labial e Genital que reduzem a multiplicação do vírus e impedem novos surtos.
 
               </p>
+              <div className="max-w-2xl mx-auto flex justify-center mb-5">
+                <Image src={bannerMeio2} alt="Books showcase" />
+              </div>
               <p className="mb-3 text-justify">
                 Estudos alemães descobriram duas substâncias naturais comprovadamente eficazes contra o vírus do Herpes Labial e Genital que reduzem a multiplicação do vírus e impedem novos surtos.
               </p>
@@ -308,9 +311,7 @@ export default function Home() {
                   {/* <h2 className="text-2xl text-center font-bold text-primary mb-5">
                     Aqui está tudo o que você receberá...
                   </h2> */}
-                  <div className="max-w-2xl mx-auto flex justify-center">
-                    <Image src={bannerMeio2} alt="Books showcase lipedema" />
-                  </div>
+
                   <p className="text-7xl mt-6 text-center font-bold text-primary">
                     +
                   </p>
@@ -343,7 +344,7 @@ export default function Home() {
                   <p className="uppercase text-center">
                     Bônus exclusivo.
                     <span className="font-bold line-through">
-                      (Valor R$ 100)
+                      (Valor R$ 97)
                     </span>
                     <br />
                   </p>
@@ -387,10 +388,10 @@ export default function Home() {
               </section>
               <section className="py-16">
                 <p className="text-gray-400 font-bold line-through uppercase text-center">
-                  VALOR TOTAL DE R$ 247
+                  VALOR TOTAL DE R$ 147
                 </p>
                 <p className="text-3xl uppercase text-center font-bold text-green-600">
-                  POR R$ 97 à vista <br />(somente hoje!)
+                  POR R$ 57 à vista <br />(somente hoje!)
                 </p>
                 <h3 className="text-4xl text-center font-bold text-primary mt-2">
                   Tenha acesso ao
